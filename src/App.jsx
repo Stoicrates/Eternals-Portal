@@ -1,4 +1,5 @@
 import "./App.css";
+
 import Announcebox from "./Components/Announcebox";
 import Brandcard from "./Components/Brandcard";
 import Cap from "./Components/Cap";
@@ -7,6 +8,7 @@ import Formcard from "./Components/Formcard";
 import Helpdeskcard from "./Components/Helpdeskcard";
 import { Instagram, Tiktok, Youtube } from "./Components/Iconframe";
 import Insurancecard from "./Components/Insurancecard";
+import Lmscard from "./Components/Lmscard";
 import Notes from "./Components/Notes";
 import Productcard from "./Components/Productcard";
 import Sentrifugocard from "./Components/Sentrifugocard";
@@ -18,36 +20,34 @@ function App() {
     <>
       <Cap />
 
-      <div className="boxed flex flex-row p-6 gap-4 ">
+      <div className="boxed flex p-10 max-lg:p-6 flex-row gap-4">
         <div className="cols w-[30dvw]">
           <Titlecard />
           <Announcebox />
           <Footer />
         </div>
-
-        <div className="cols flex-1">
-          <TheCard />
-          <div
-            className="rows flex-1
+        <div className="flex flex-1 max-lg:flex-col gap-4 max-lg:overflow-scroll">
+          <div className="cols w-full max-lg:h-[720px] max-lg:shrink-0">
+            <Lmscard />
+            <div
+              className="rows h-[30%]
           "
-          >
-            <Brandcard />
-            <div className="cols flex-1 ">
-              <Sentrifugocard />
-              <Insurancecard />
+            >
+              <Brandcard />
+              <Productcard />
             </div>
+            <Helpdeskcard />
           </div>
-
-          <Formcard />
-        </div>
-        <div className="cols">
-          <Notes />
-          <Productcard />
-          <Helpdeskcard />
-          <div className="flex flex-row g-8 justify-center w-[20dvw]">
-            <Instagram />
-            <Tiktok />
-            <Youtube />
+          <div className="cols w-[30dvw] max-lg:h-[800px] max-lg:shrink-0 max-lg:w-full">
+            <Notes />
+            <Sentrifugocard />
+            <Insurancecard />
+            <Formcard />
+            <div className="flex flex-row g-8 justify-center">
+              <Instagram />
+              <Tiktok />
+              <Youtube />
+            </div>
           </div>
         </div>
       </div>

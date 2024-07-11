@@ -2,7 +2,7 @@ import React from "react";
 
 function Notes() {
   return (
-    <div className="thecard bg-transparent items-start p-0">
+    <div className="thecard bg-transparent items-start p-0 max-lg:p-4">
       <div className="flex flex-col gap-4">
         <h2 className="text-3xl font-bold">READY</h2>
         <div className="flex flex-col gap-1">
