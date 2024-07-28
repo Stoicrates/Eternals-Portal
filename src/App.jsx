@@ -1,5 +1,4 @@
 import "./App.css";
-
 import Announcebox from "./Components/Announcebox";
 import Brandcard from "./Components/Brandcard";
 import Cap from "./Components/Cap";
@@ -12,7 +11,6 @@ import Lmscard from "./Components/Lmscard";
 import Notes from "./Components/Notes";
 import Productcard from "./Components/Productcard";
 import Sentrifugocard from "./Components/Sentrifugocard";
-import TheCard from "./Components/TheCard";
 import Titlecard from "./Components/Titlecard";
 
 function App() {
@@ -20,28 +18,28 @@ function App() {
     <>
       <Cap />
 
-      <div className="boxed flex p-10 max-lg:p-6 flex-row gap-4">
-        <div className="cols w-[30dvw]">
+      <div className="boxed flex p-10 max-lg:p-6 flex-row gap-4 bg-white">
+        <div className="cols w-[24dvw] max-lg:w-[32dvw]">
           <Titlecard />
           <Announcebox />
           <Footer />
         </div>
         <div className="flex flex-1 max-lg:flex-col gap-4 max-lg:overflow-scroll">
-          <div className="cols w-full max-lg:h-[720px] max-lg:shrink-0">
+          <div className="cols w-full max-lg:h-[800px] max-lg:shrink-0">
             <Lmscard />
             <div
-              className="rows h-[30%]
+              className="rows h-[40%]
           "
             >
               <Brandcard />
               <Productcard />
             </div>
-            <Helpdeskcard />
           </div>
-          <div className="cols w-[30dvw] max-lg:h-[800px] max-lg:shrink-0 max-lg:w-full">
+          <div className="cols w-[32dvw] max-lg:h-[840px] max-lg:shrink-0 max-lg:w-full">
             <Notes />
             <Sentrifugocard />
             <Insurancecard />
+            <Helpdeskcard />
             <Formcard />
             <div className="flex flex-row g-8 justify-center">
               <Instagram />

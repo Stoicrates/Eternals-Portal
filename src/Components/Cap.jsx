@@ -10,7 +10,7 @@ function Cap() {
   return (
     <div
       ref={capRef}
-      className="boxed absolute w-full transition-all duration-1000 shadow-xl z-50"
+      className="boxed absolute w-full transition-all duration-1000 z-50"
       onClick={handleCapClick}
     >
       <Maintitle />

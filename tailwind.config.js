@@ -6,6 +6,7 @@ export default {
     extend: {
       backgroundImage: {
         'instagram-gradient': 'linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%)',
+        'fotobareng': "radial-gradient(transparent,black),url('/fotobareng.webp')",
       },
 
       fontFamily: {
@@ -13,6 +14,9 @@ export default {
         'secondary': ['roboto', 'system-ui'],
       },
 
+      dropShadow: {
+        'whiteshadow': '4px 4px 6px rgba(200, 200, 200, 1)',
+      },
       
       colors: {
         primary : {

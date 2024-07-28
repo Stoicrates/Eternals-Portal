@@ -7,7 +7,7 @@ import Know4 from "../assets/knowledge-thumb4.webp";
 function Productcard() {
   return (
     <a
-      href="https://www.google.com"
+      href="https://www.canva.com/design/DAGDyYhW4Ng/2X41jlawzd3dpl6liPXapQ/view?utm_content=DAGDyYhW4Ng&utm_campaign=designshare&utm_medium=link&utm_source=editor"
       target="_blank"
       className="thecard relative overflow-hidden group/icons bg-primary-50 hover:bg-secondary-500"
     >
@@ -15,7 +15,7 @@ function Productcard() {
         <h3 className="font-bold">Product Knowledge</h3>
         <p>Get to know what we do and how we do it!</p>
       </div>
-      <div className="icnbg z-0 opacity-65 group-hover/icons:w-[120px] w-[100px] top-8 group-hover/icons:rotate-[12deg] duration-500">
+      <div className="icnbg z-0 opacity-65 group-hover/icons:w-[8dvw] w-[12dvw] top-8 group-hover/icons:rotate-[12deg] duration-500">
         <img
           className="group-hover/icons:-rotate-[20deg] absolute z-40 shadow-2xl duration-300"
           src={Know1}

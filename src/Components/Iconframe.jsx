@@ -2,7 +2,7 @@ import React from "react";
 
 function Instagram() {
   return (
-    <a className="">
+    <a href="https://www.instagram.com/growwithenigma/" target="_blank">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className="icn instagram "
@@ -21,7 +21,7 @@ function Instagram() {
 
 function Tiktok() {
   return (
-    <a>
+    <a href="https://www.tiktok.com/@enigmacamp" target="_blank">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className="icn tiktok "
@@ -40,7 +40,7 @@ function Tiktok() {
 
 function Youtube() {
   return (
-    <a>
+    <a href="https://www.youtube.com/c/enigmacamp" target="_blank">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className="icn youtube "

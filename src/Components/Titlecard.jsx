@@ -12,19 +12,15 @@ function Titlecard() {
   }
 
   return (
-    <div className="bg-transparent h-[25%]">
+    <div className=" h-[20%] flex items-center">
       <div className="flex flex-col gap-4 ">
-        <div className="w-[64%] z-0">
+        <div className="z-0">
           <Lottie
             lottieRef={logoRef}
             animationData={EnigmaLogo}
             loop={false}
             onClick={handleClick}
           ></Lottie>
-        </div>
-        <div className="flex flex-col gap-1">
-          <p className="">"With Great Power Comes Great Responsability!</p>
-          <p className="">Spooderman 2024</p>
         </div>
       </div>
     </div>

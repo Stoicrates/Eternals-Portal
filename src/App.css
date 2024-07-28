@@ -23,7 +23,7 @@
   }
 
   .cap {
-    @apply -translate-x-[93%] -translate-y-[94%] rotate-12;
+    @apply -translate-x-[90%] -translate-y-[96%] rotate-45;
   }
 
   .link {
@@ -31,11 +31,15 @@
   }
 
   h1 {
-    @apply text-8xl;
+    @apply text-8xl font-bold;
   }
 
   h3 {
     @apply text-xl;
+  }
+
+  h4 {
+    @apply text-lg;
   }
 
   p {
@@ -48,13 +52,31 @@
   }
 
   .thecard:hover {
-    @apply rounded-xl;
+    @apply rounded-xl bg-secondary-500 text-white;
+    @apply transition-all duration-500;
+  }
+
+  .ann {
+    @apply p-4 rounded-sm flex-1 flex items-center;
+  }
+
+  .ann:hover {
+    @apply rounded-md bg-secondary-500 text-white py-5 px-6;
     @apply transition-all duration-500;
   }
 
   .instagram:hover {
     @apply bg-instagram-gradient text-neutral-50;
     @apply transition-all duration-500;
+  }
+
+  .ready {
+    @apply text-xl p-1;
+  }
+
+  .ready:hover {
+    @apply text-primary-500 px-2;
+    @apply transition-all duration-75;
   }
 
   .tiktok:hover {

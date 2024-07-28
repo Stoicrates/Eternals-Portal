@@ -9,15 +9,15 @@ import Brand6 from "../assets/bi-thumb6.webp";
 function Brandcard() {
   return (
     <a
-      href="https://www.google.com"
+      href="https://www.canva.com/design/DAF7P45zHvE/A7CKao-LslL3QofondMstA/view?utm_content=DAF7P45zHvE&utm_campaign=designshare&utm_medium=link&utm_source=editor"
       target="_blank"
       className="thecard relative overflow-hidden group/icons bg-secondary-50 hover:bg-primary-500"
     >
-      <div className="z-30 w-[72%] text-primary-900 group-hover/icons:text-primary-50">
+      <div className="z-30 w-[72%] text-secondary-900 group-hover/icons:text-primary-50">
         <h3 className="font-bold">Brand Identity</h3>
         <p>This is how we are!</p>
       </div>
-      <div className="icnbg z-0 opacity-65 group-hover/icons:w-[120px] w-[100px] top-8 group-hover/icons:rotate-[12deg] duration-500">
+      <div className="icnbg z-0 opacity-65 group-hover/icons:w-[8dvw] w-[12dvw] top-8 group-hover/icons:rotate-[12deg] duration-500">
         <img
           className="group-hover/icons:-rotate-[20deg] absolute z-40 shadow-2xl duration-300"
           src={Brand1}
